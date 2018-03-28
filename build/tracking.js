@@ -2445,7 +2445,7 @@
   });
 
   tracking.ColorTracker.registerColor('red', function(r, g, b) {
-    if (r > 200 && g < 100 && b < 100) {
+    if (r > 180 && g < 50 && b < 50) {
       // console.log("detecting red");
       // colors.customColor = 'orange';
       return true;
