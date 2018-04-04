@@ -2444,14 +2444,12 @@
     return dx * dx + dy * dy + dz * dz < 10000;
   });
 
-  tracking.ColorTracker.registerColor('red', function(r, g, b) {
-    if (r > 180 && g < 50 && b < 50) {
-      // console.log("detecting red");
-      // colors.customColor = 'orange';
-      return true;
-    }
-    return false;
-  });
+  // tracking.ColorTracker.registerColor('red', function(r, g, b) {
+  //   if (r < 50 && g > 140 && b < 50) {
+  //       return true;
+  //   }
+  //   return false;
+  // });
 
   // Caching neighbour i/j offset values.
   //=====================================
